@@ -12,11 +12,11 @@ int main()
         printf("Error! Factorial of a negative number doesn't exist.");
     else
     {
-        for (i = 1; i <= n; ++i)
+        for (i = 1; i <= n;i++)
         {
             factorial *= i;
         }
-        printf("Factorial of %d = %lld", n, factorial);
+        printf("Factorial of %d = %d", n, factorial);
     }
     return 0;
 }   
